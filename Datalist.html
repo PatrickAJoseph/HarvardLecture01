@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Demonstration of Datalist tag in HTML5</title>
+	</head>
+<body>
+	<div>
+		Enter name of the user :
+		<input name="name" type="text" placeholder="Name of User">
+	</div>
+	<div>
+		Enter password :
+		<input name="password" type="password" placeholder="password">
+	</div>
+	<div>
+		Select sessions to be accessed :
+		<input name="color" type="radio" value="red">Session I
+		<input name="color" type="radio" value="green">Session II
+		<input name="color" type="radio" value="blue">Session III
+	</div>
+	<div>
+		Selct course :
+		<input name="course" list="courses" placeholder="course">
+			<datalist id="courses">
+				<option value = "Fundamentals of C and C++"></option>
+				<option value = "Fundamentals of Instrumentation Engineering"></option>
+				<option value = "Fundamentals of Mathematics for Engineers"></option>
+				<option value = "Basic Engineering Skills"></option>
+			</datalist>
+	</div>
+</body>
+</html>
