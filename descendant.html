@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>descentant.html</title>
+		<style>
+			ol > li
+			{
+				text-align:center;
+				font-size:25px;
+				font-weight:light;
+				color:blue;
+				
+			}
+			ul li
+			{
+				font-size:20px;
+			}
+			input[type="text"]
+			{
+				background-color : yellow;
+				margin : 40px;
+				border : 40px;
+				padding : 10px;
+			}
+			input[type="password"]
+			{
+				background-color : blue;
+				margin : 50px;
+				border : 50px;
+				padding : 15px;
+			}
+			input[type="radio"]
+			{
+				background-color : green;
+				margin : 55px;
+				border : 55px;
+				padding : 20px;
+			}
+			button
+			{
+				text-align : center;
+				font-size  : 20px;
+			}
+
+			button:hover
+			{
+				background-color : orange;
+			}
+
+			a::before{
+				content:"\21d2 Click Here";
+				font-weight:bold;
+			}
+
+			h2::selection{
+				background-color : blue;
+			}
+			}
+		</style>
+	</head>
+<body>
+	<ol>
+		<li>Ordered List Element 01</li>
+		<ul>
+			<li>Unordered List 1 Element 01</li>
+			<li>Unordered List 1 Element 02</li>
+			<li>Unordered List 1 Element 03</li>
+			<li>UNordered List 1 Element 04</li>
+		</ul>
+	</ol>
+	<div>
+		Enter name :<br>
+		<input name="name" type="text" placeholder="Name"><br>
+		Enter password :<br>
+		<input name="password" type="password" placeholder="Password"><br>
+		Choose an option :<br>
+		<input name="option" type="radio" value="Option 01">Option 01<br>
+		<input name="option" type="radio" value="Option 02">Option 02<br>
+		<input name="option" type="radio" value="Option 03">Option 03<br>
+		<input name="option" type="radio" value="Option 04">Option 04<br>
+	</div>
+	<!-- The next division has been created to demonstrate the Pseudo-Class property of CSS.
+		 When the cursor is hovered over a certain element in the web-page either the appea-
+		 rance of the element changes or a small message pops up near the element-->
+	<div>
+		<br>Click Below to submit<br><br>
+		<button>Submit Form</button>
+	<!--The next division has been created to demonstrate the Pseudo-Element property of CSS.
+		Prefixes the elements within a tag with the data given in the <style> tag.
+	-->
+	<div>
+		<br><a href="#">Click here for more information about this form</a></div><br>
+	</div>
+	<!-- The next division has been created to demonstrate the Selection Feature of CSS.
+		In this, when text in a particular section is selected, it changes according to
+		specifications given within the <style> tag of the HTML document.
+	-->
+	<div id="divisionforselection">
+		<h2>This is the paragraph to be selected</h2>
+	</div>
+</body>
+</html>
